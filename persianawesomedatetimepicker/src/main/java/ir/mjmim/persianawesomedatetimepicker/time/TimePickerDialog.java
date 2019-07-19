@@ -39,7 +39,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import ir.mjmim.persianawesomedatetimepicker.HapticFeedbackController;
-import com.mohamadamin.persianmaterialdatetimepicker.R;
+import ir.mjmim.persianawesomedatetimepicker.R;
 import ir.mjmim.persianawesomedatetimepicker.TypefaceHelper;
 import ir.mjmim.persianawesomedatetimepicker.Utils;
 import ir.mjmim.persianawesomedatetimepicker.time.RadialPickerLayout.OnValueSelectedListener;

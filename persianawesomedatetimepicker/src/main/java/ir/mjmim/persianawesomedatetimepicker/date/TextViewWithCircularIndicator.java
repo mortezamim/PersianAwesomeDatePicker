@@ -26,7 +26,7 @@ import android.graphics.Paint.Style;
 import androidx.annotation.NonNull;
 import android.util.AttributeSet;
 
-import com.mohamadamin.persianmaterialdatetimepicker.R;
+import ir.mjmim.persianawesomedatetimepicker.R;
 import ir.mjmim.persianawesomedatetimepicker.utils.LanguageUtils;
 
 /**

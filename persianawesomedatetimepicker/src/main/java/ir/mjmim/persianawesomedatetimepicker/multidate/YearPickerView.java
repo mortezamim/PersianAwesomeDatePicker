@@ -28,7 +28,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.mohamadamin.persianmaterialdatetimepicker.R;
+import ir.mjmim.persianawesomedatetimepicker.R;
 import ir.mjmim.persianawesomedatetimepicker.date.TextViewWithCircularIndicator;
 import ir.mjmim.persianawesomedatetimepicker.multidate.MultiDatePickerDialog.OnDateChangedListener;
 import ir.mjmim.persianawesomedatetimepicker.utils.LanguageUtils;

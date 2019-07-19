@@ -22,8 +22,8 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.Log;
 import android.view.View;
+import ir.mjmim.persianawesomedatetimepicker.R;
 
-import com.mohamadamin.persianmaterialdatetimepicker.R;
 
 /**
  * Draws a simple white circle on which the numbers will be drawn.

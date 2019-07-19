@@ -35,7 +35,7 @@ import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
 
-import com.mohamadamin.persianmaterialdatetimepicker.R;
+import ir.mjmim.persianawesomedatetimepicker.R;
 import ir.mjmim.persianawesomedatetimepicker.TypefaceHelper;
 import ir.mjmim.persianawesomedatetimepicker.Utils;
 import ir.mjmim.persianawesomedatetimepicker.multidate.MonthAdapter.CalendarDay;

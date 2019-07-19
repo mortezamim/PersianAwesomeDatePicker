@@ -39,7 +39,7 @@ import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.FrameLayout;
 
 import ir.mjmim.persianawesomedatetimepicker.HapticFeedbackController;
-import com.mohamadamin.persianmaterialdatetimepicker.R;
+import ir.mjmim.persianawesomedatetimepicker.R;
 import ir.mjmim.persianawesomedatetimepicker.utils.LanguageUtils;
 
 import java.util.Calendar;
