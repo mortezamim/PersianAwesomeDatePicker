@@ -446,7 +446,7 @@ public abstract class MonthView extends View {
 
   protected void drawMonthTitle(Canvas canvas) {
     int x = (mWidth + 2 * mEdgePadding) / 2;
-    int y = (getMonthHeaderSize() - MONTH_DAY_LABEL_TEXT_SIZE) / 2;
+    int y = ((getMonthHeaderSize() - MONTH_DAY_LABEL_TEXT_SIZE) / 2) + 15;
     canvas.drawText(getMonthAndYearString(), x, y, mMonthTitlePaint);
   }
 

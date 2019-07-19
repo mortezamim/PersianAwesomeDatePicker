@@ -21,6 +21,7 @@ import android.app.Activity;
 import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import android.util.Log;
@@ -262,7 +263,7 @@ public class DatePickerDialog extends DialogFragment implements
     mSelectYear = res.getString(R.string.mdtp_select_year);
 
     int bgColorResource = mThemeDark ? R.color.mdtp_date_picker_view_animator_dark_theme : R.color.mdtp_date_picker_view_animator;
-    view.setBackgroundColor(activity.getResources().getColor(bgColorResource));
+    view.findViewById(R.id.mainParent).setBackgroundColor(activity.getResources().getColor(bgColorResource));
 
     mAnimator = view.findViewById(R.id.animator);
     mAnimator.addView(mDayPickerView);
@@ -312,6 +313,8 @@ public class DatePickerDialog extends DialogFragment implements
     }
 
     mHapticFeedbackController = new HapticFeedbackController(activity);
+    getDialog().getWindow().setBackgroundDrawableResource(R.drawable.back_transparent);
+//    view.setBackgroundColor(R.drawable.back_transparent);
     return view;
   }
 
