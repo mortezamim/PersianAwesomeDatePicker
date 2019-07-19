@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        applicationId "com.mohamadamin.persianmaterialdatetimepicker.sample"
+        applicationId "ir.mjmim.persianawesomedatetimepicker.sample"
         minSdkVersion 17
         targetSdkVersion 28
         versionCode 1
@@ -19,6 +19,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':persianmaterialdatetimepicker')
-    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation project(':persianawesomedatetimepicker')
+    implementation 'androidx.appcompat:appcompat:1.0.2'
 }
