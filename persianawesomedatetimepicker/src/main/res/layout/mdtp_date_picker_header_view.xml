@@ -20,6 +20,7 @@
     android:layout_height="@dimen/mdtp_date_picker_header_height"
     android:background="@color/mdtp_calendar_header"
     android:gravity="center"
+  android:visibility="gone"
     android:includeFontPadding="false"
     android:textColor="@color/mdtp_white"
     android:textSize="@dimen/mdtp_date_picker_header_text_size"

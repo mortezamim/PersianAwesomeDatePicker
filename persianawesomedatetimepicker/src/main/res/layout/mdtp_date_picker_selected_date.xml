@@ -25,6 +25,8 @@
     android:gravity="center"
     android:orientation="vertical">
 
+    <include layout="@layout/mdtp_date_picker_header_view"/>
+
     <ir.mjmim.persianawesomedatetimepicker.AccessibleLinearLayout
         android:id="@+id/date_picker_month_and_day"
         android:layout_width="match_parent"
