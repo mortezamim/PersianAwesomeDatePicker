@@ -181,7 +181,7 @@ public abstract class MonthView extends View {
   protected int mHighlightedDayTextColor;
   protected int mDisabledDayTextColor;
   protected int mMonthTitleColor;
-  private float rightSpace = 30;
+  private float rightSpace = 50;
 
   public MonthView(Context context) {
     this(context, null, null);
