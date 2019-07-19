@@ -1,1 +1,1 @@
-include ':sample', ':persianawesomedatetimepicker'
+include ':sample', ':persianawesomedatepicker'

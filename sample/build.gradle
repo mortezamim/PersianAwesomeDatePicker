@@ -19,6 +19,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':persianawesomedatetimepicker')
+    implementation project(':persianawesomedatepicker')
     implementation 'androidx.appcompat:appcompat:1.0.2'
 }
